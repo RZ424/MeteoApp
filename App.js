@@ -8,6 +8,7 @@ export default function App() {
   const [errorMsg, setErrorMsg] = useState(null);
   const [meteo, setMeteo] = useState(null)
   const [forecast, setForecast] = useState(null);
+  const OPENWHEATERAPIKEY = '7fc1a4a1b257ab043c9e86e2db82ab0a'
 
   useEffect(() => {
     async function getCurrentLocation() {
